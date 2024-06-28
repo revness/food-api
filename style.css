@@ -1,0 +1,37 @@
+.foodCard {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 2px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#main {
+  height: 100vh;
+  width: 100vh;
+  border: 2px solid black;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+button {
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+h1 {
+  margin-top: 100px;
+}
